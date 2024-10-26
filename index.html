@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loign</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overly">
+        <form action="file:///D:/mrng%20bg-%2013/Day-16/index.html?" onsubmit="validateform() ; event.preventDefault()">
+            <h1>cantact us</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="enter your name">
+            <small class="error"></small><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="enter your email">
+            <small class="error"></small><br>
+            <small class="error"></small><br>
+
+            
+            <label for="password">Password:</label>
+            <input type="text" id="password" placeholder="enter your password">
+            <small class="error"></small><br>
+            <small class="error"></small><br>
+
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="enter your message"></textarea>
+            <small class="error"></small><br><br>
+
+            <input type="submit" value="SEND MESSAGE">
+        </form>
+        <p id="success"> </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

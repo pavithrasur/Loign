@@ -1,0 +1,72 @@
+.overlay
+{
+    height: 100vh;
+    width: 90vh;
+}
+body
+{
+    background-color: rgba(81, 6, 121, 0.96);
+}
+form
+{
+    background-color:rgb(236, 241, 241);
+    max-width: 550px;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+label
+{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(55, 3, 87);
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(86, 62, 100);
+}
+input,textarea
+{
+    border: 0;
+    border-bottom: 1px solid rgb(100, 99, 99);
+    width: 50vh;
+    height: 50px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: none;
+
+}
+input:focus,textarea:focus
+{
+    border-bottom: 2px solid violet;
+}
+input[type="submit"]
+{
+    color: rgb(244, 239, 246);
+    padding: 15px 35px;
+    border-radius: 10px;
+    background:rgb(50, 6, 50);
+    font-size: 18px;
+    text-align: center;
+    margin-left: 15%;
+   
+}
+.error
+{
+    color: red;
+}
+#success
+{
+    color: green;
+}
+#error-border
+{
+    border: 3px solid red;
+}
